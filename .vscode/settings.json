@@ -52,6 +52,7 @@
     "upsert",
     "venv"
   ],
+  "editor.tabSize": 4,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": true,
   "eslint.format.enable": true,

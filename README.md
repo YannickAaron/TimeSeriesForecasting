@@ -2,37 +2,11 @@
 
 ## Prerequisites
 
-### Install Homebrew
-install homebrew
+run `sh install.sh` to install all the dependencies
+run `sh scripts/add_pytorch_nightly.sh` to install the latest version of nightlytorch
 
-### Install pyenv
+brew install open-mpi
+brew install cmake
 
-### install prepare: ./husky/prepare
-
-# PythonDefaultProject
-Python Default to use for new Projects
-
-pytest: just name file _test.py
-
-
-poetry run python poetry-update.py -> build an npm package
-
-
-
-## Pre Commit
-
-**[General](https://github.com/pre-commit/pre-commit-hooks)**
-Repo: [https://github.com/pre-commit/pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks)
-
-Some out-of-the-box hooks for pre-commit.
-
-
-
-
-## TODO
-- [ ] add a script that automatically creates the structure needed for the project
-    - The script should be able to init poetry with the standard packages needed for the pre-commit hook
-    - The script should install husky if needed
-    - The script should differentiate between different needs for the project (e.g. notebook, code)
-    - The script should be able to select the pre-commit hook
-- [ ] add dependbot
+=> had to manually install this!
+pip install --install-option="--nomp" lightgbm
