@@ -5,6 +5,9 @@
 /node_modules
 /.next
 
+#ignore darts_logs
+darts_logs
+
 poetry.lock
 
 # cache
@@ -59,3 +62,4 @@ static.json
 
 # npm
 package-lock.json
+notebooks/darts_logs/test_model/_model.pth.tar

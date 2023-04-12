@@ -7,10 +7,7 @@ authors = ["Yannick Aaron Lehr <yannick.lehr@ioki.com>"]
 [tool.poetry.dependencies]
 python = "3.9.13"
 toml = "^0.10.2"
-torch = {path = "nightlytorch/torch-1.14.0.dev20221020-cp39-none-macosx_11_0_arm64.whl"}
-torchaudio = {path = "nightlytorch/torchaudio-0.14.0.dev20221020-cp39-cp39-macosx_12_0_arm64.whl"}
-torchvision = {path = "nightlytorch/torchvision-0.15.0.dev20221020-cp39-cp39-macosx_11_0_arm64.whl"}
-darts = "^0.22.0"
+darts = "^0.23.0"
 
 
 [tool.poetry.group.dev.dependencies]
